@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+body,
+canvas {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: monospace;
+  letter-spacing: 0.05rem;
+}
+
+canvas {
+  display: block;
+  image-rendering: optimizeQuality;
+}
